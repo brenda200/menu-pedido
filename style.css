@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-image: url('img/photo-1695653422543-7da6d6744364.avif');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Estilo para a barra de navegação */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilo para as seções da página */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos secundários */
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Estilo para os itens da lista */
+.item {
+  margin-bottom: 20px;
+}
+
+/* Estilo para o título dos itens da lista */
+.item h3 {
+  margin: 0;
+}
+
+/* Estilo para informações adicionais dos itens da lista */
+.item span {
+  float: right;
+  font-weight: bold;
+}
+
+/* Estilo para a seção do carrinho de compras */
+#carrinho {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título da seção do carrinho de compras */
+#carrinho h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Estilo para a lista de itens no carrinho de compras */
+#carrinho #lista-carrinho {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para cada item na lista de itens do carrinho de compras */
+#carrinho #lista-carrinho li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para os botões na página */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para os botões */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para as imagens dos itens */
+.item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  max-height: 150px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guias com Conteúdos Diferentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nome do Restaurante</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#bebidas">Bebidas</a>
+            <a href="#sobremesas">Sobremesas</a>
+            <button onclick="verCarrinho()">Ver Carrinho</button>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="item">
+            <img src="img/massa-de-pizza-1170x659.webp" alt="Imagem do Prato 1">
+            <h3>Nome do Prato 1</h3>
+            <p>Descrição do prato 1.</p>
+            <span>R$ 30.00</span>
+            <button onclick="adicionarAoCarrinho('Nome do Prato 1', 30.00)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="item">
+            <img src="img/Pizza-31.webp" alt="Imagem do Prato 1">
+            <h3>Nome do Prato 2</h3>
+            <p>Descrição do prato 2.</p>
+            <span>R$ 20.00</span>
+            <button onclick="adicionarAoCarrinho('Nome do Prato 2', 20.00)">Adicionar ao Carrinho</button>
+        </div>
+        <!-- Adicione mais itens do menu aqui -->
+    </section>
+
+    <section id="bebidas">
+        <h2>Bebidas</h2>
+
+        <div class="item">
+            <img src="img/receitas-de-drinks-com-gin-1200x675.jpg" alt="Imagem do Prato 1">
+            <h3>Nome da Bebida 1</h3>
+            <p>Descrição da bebida 1.</p>
+            <span>R$ 15.00</span>
+            <button onclick="adicionarAoCarrinho('Nome da Bebida 1', 15.00)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="img/suco de laranja.jpg" alt="Imagem do Prato 1">
+            <h3>Nome da Bebida 2</h3>
+            <p>Descrição da bebida 2.</p>
+            <span>R$ 4.00</span>
+            <button onclick="adicionarAoCarrinho('Nome da Bebida 2', 4.00)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="img/REFRIGERANTE.png" alt="Imagem do Prato 1">
+            <h3>Nome da Bebida 3</h3>
+            <p>Descrição da bebida 3.</p>
+            <span>R$ 10.00</span>
+            <button onclick="adicionarAoCarrinho('Nome da Bebida 3', 10.00)">Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Adicione mais itens de bebidas aqui -->
+
+    </section>
+
+    <section id="sobremesas">
+        <h2>Sobremesas</h2>
+        <div class="item">
+            <h3>Nome da Sobremesa 1</h3>
+            <p>Descrição da sobremesa 1.</p>
+            <span>R$ 30.00</span>
+            <button onclick="adicionarAoCarrinho('Nome da Sobremesa 1', 30.00)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="item">
+            <h3>Nome da Sobremesa 2</h3>
+            <p>Descrição da sobremesa 2.</p>
+            <span>R$ 13.00</span>
+            <button onclick="adicionarAoCarrinho('Nome da Sobremesa 2', 13.00)">Adicionar ao Carrinho</button>
+        </div>
+        <!-- Adicione mais itens de sobremesas aqui -->
+    </section>
+
+    <div id="carrinho" style="display: none;">
+        <h2>Carrinho</h2>
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho serão exibidos aqui -->
+        </ul>
+    </div>
+
+    <script src="script.js" defer></script>
+    <script src="carrinho.js" defer></script>
+
+</body>
+
+</html>

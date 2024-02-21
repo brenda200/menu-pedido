@@ -1,0 +1,79 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Estilo para o título do cabeçalho */
+  header h1 {
+    font-size: 24px;
+  }
+  
+  /* Estilo para a seção do carrinho de compras */
+  #carrinho {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  /* Estilo para o título da seção do carrinho de compras */
+  #carrinho h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para a lista de itens no carrinho de compras */
+  #carrinho #lista-carrinho {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item na lista de itens do carrinho de compras */
+  #carrinho #lista-carrinho li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* Estilo para o total do carrinho */
+  #carrinho #total-carrinho {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para os botões na página */
+  button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito de hover para os botões */
+  button:hover {
+    background-color: #555;
+  }
+  
